@@ -1,0 +1,12 @@
+@import '../node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+$primary-font-type: 'Lora', serif;
+
+body {
+    font-family: $primary-font-type;
+}
+
+@import 'partials/entrance';
